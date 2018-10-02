@@ -1,0 +1,7 @@
+<aura:component description="finalPage" implements="forceCommunity:availableForAllPageTypes"  access="global" >
+    <div style="min-height: 500px">
+        <br />
+        <h1>Thank you for your interest in a trial.</h1>
+        <h1>You will receive an email with login instructions shortly.</h1>
+    </div>
+</aura:component>

@@ -1,0 +1,9 @@
+<design:component label="Trialforce Information">
+    <design:attribute name="templateId" label="Trialforce Template Id" 
+                      description="Enter the Trialforce Template Id" 
+                      datasource="apex://templatePicklist"/>
+	<design:attribute name="createLead" label="Create Lead" 
+                      description="Specify whether lead is also created"/>
+	<design:attribute name="customDomain" label="Allow Custom Domain" 
+                      description="Can propsect specifiy a custom domain"/> 
+</design:component>

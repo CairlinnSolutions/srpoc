@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>srpoc</fullName>
+    <description>SignupRequest POC with Lightning Component and VisualForce page</description>
+    <types>
+        <members>newTrialSignupController</members>
+        <members>newTrialSignupController_test</members>
+        <members>templatePicklist</members>
+        <members>templatePicklist_test</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>finalPage</members>
+        <members>newTrialForm</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>TSO_Template__c.Description__c</members>
+        <members>TSO_Template__c.Trialforce_Source_Org_Id__c</members>
+        <members>TSO_Template__c.Trialforce_Template_Id__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>TSO_Template__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>TSO_Template__c-TSO Template Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>TSO_Template__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>43.0</version>
+</Package>
