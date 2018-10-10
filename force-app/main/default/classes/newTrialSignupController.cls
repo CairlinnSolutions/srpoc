@@ -13,7 +13,10 @@ public with sharing class newTrialSignupController {
         SignupCreation sc = new SignupCreation();
         sc.createNewTrial(newLead, templateId, username, domain);
     }
-    
+
+
+// this is inner class without sharing , so runs in system context
+// this is only to handle the SignupRequest call since it cant be call by unauth user
     public without sharing class SignupCreation {
         public void createNewTrial(Lead newLead, String templateId, String username, String domain) {
 			SignupRequest sr = new SignupRequest();
